@@ -1,0 +1,50 @@
+/*Generic Styling*/
+.header-content {
+  background: #ff8b00;
+  color: #26292b;
+}
+
+.footer-content {
+  background: #2d0d10;
+  color: white;
+}
+
+.outer-container {
+  width: 100vw;
+  height: 100vh;
+}
+.nav-content {
+  float: left;
+  width: 25vw;
+}
+.main-content {
+  float: left;
+  width: 50vw;
+}
+.sidebar-content {
+  float: left;
+  width: 25vw;
+}
+
+.inner-container {
+  height: 80vh;
+}
+.inner-container > * {
+  text-align: center;
+  position: relative;
+  top: 40vh;
+}
+
+/*Reset floats so footer is unaffected.*/
+.inner-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer-content,
+.header-content {
+  height: 10vh;
+  text-align: center;
+  padding: 4vh 0px;
+}
