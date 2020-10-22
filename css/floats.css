@@ -48,3 +48,26 @@
   text-align: center;
   padding: 4vh 0px;
 }
+
+@media only screen and (max-width: 479px) {
+  .inner-container > * {
+    text-align: center;
+    position: relative;
+    top: 10vh;
+  }
+  .nav-content {
+    float: left;
+    height: 20vh;
+    width: 100vw;
+  }
+  .main-content {
+    float: left;
+    height: 40vh;
+    width: 100vw;
+  }
+  .sidebar-content {
+    float: left;
+    height: 20vh;
+    width: 100vw;
+  }
+}
