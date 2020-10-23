@@ -15,11 +15,12 @@
 
 .main-content {
   flex: 1;
+  padding: 0% 2%;
 }
 
 .sidebar-content,
 .nav-content {
-  flex: 0 0 20vw;
+  flex: 0 0 30vw;
 }
 
 .sidebar-content,
@@ -29,6 +30,10 @@
 .footer-content {
   margin: auto;
   text-align: center;
+}
+
+.sidebar-content {
+  padding: 0vh 2vw;
 }
 
 .header-content,

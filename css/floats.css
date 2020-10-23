@@ -13,12 +13,7 @@
   float: left;
   width: 40vw;
   overflow: auto;
-  padding: 0 2vh;
-}
-
-.sidebar-content {
-  float: left;
-  width: 25vw;
+  padding: 0 1vh;
 }
 
 .inner-container {
@@ -39,6 +34,9 @@
 /*Why this works I have no idea.*/
 .sidebar-content {
   display: unset;
+  float: right;
+  width: 25vw;
+  padding: 0vh 1vw;
 }
 
 .sidebar-content > *,
@@ -71,18 +69,19 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .inner-container > * {
-    text-align: center;
-    position: relative;
-  }
   .nav-content {
-    float: left;
+    clear: both;
+    width: 100vw;
+    height: 40vw;
   }
   .main-content {
-    float: left;
+    clear: both;
+    width: 90vw;
+    padding: 0vh 5vw;
   }
   .sidebar-content {
-    float: left;
+    clear: both;
     width: 100vw;
+    padding: 0vh 5vw;
   }
 }

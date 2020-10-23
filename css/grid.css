@@ -27,7 +27,7 @@
 .inner-container {
   grid-area: inner;
   display: inline-grid;
-  grid-template-columns: 20vw 60vw 20vw;
+  grid-template-columns: 20vw 50vw 30vw;
   grid-template-rows: auto;
   grid-template-areas: 'navigation main sidebar';
 }
