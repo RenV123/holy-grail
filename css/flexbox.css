@@ -1,3 +1,4 @@
+/*Flexbox Layout styling*/
 .outer-container {
   display: flex;
   flex-direction: column;
@@ -33,18 +34,8 @@
 .header-content,
 .footer-content {
   width: 100%;
-  min-height: 5vh;
+  min-height: 10vh;
   padding: 30px 0px;
-}
-
-.header-content {
-  background: #ff8b00;
-  color: #26292b;
-}
-
-.footer-content {
-  background: #2d0d10;
-  color: white;
 }
 
 @media only screen and (max-width: 479px) {

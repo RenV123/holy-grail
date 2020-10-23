@@ -1,14 +1,4 @@
-/*Generic Styling*/
-.header-content {
-  background: #ff8b00;
-  color: #26292b;
-}
-
-.footer-content {
-  background: #2d0d10;
-  color: white;
-}
-
+/*Floats Layout styling*/
 .outer-container {
   width: 100vw;
   height: 100vh;
