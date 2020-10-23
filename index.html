@@ -4,34 +4,42 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/destyle.css">
+    <link rel="stylesheet" href="../css/flexbox.css">
+    <link rel="stylesheet" href="../css/generic-style.css">
     <title>CSS Layout - Holy Grail</title>
 </head>
 
 <body>
-    <header>
-        <h1>List of Layouts:</h1>
-    </header>
+    <div class="outer-container">
+        <header class="header-content">
+            <!-- Place a title here -->
+            <div>Triumph Spitfire Fanbase</div>
+        </header>
 
-    <nav>
-        <a href="./html/floats.html">Floats</a>
-        </br>
-        <a href="./html/flexbox.html">FlexBox</a>
-        </br>
-        <a href="./html/grid.html">Grid</a>
-        </br>
-    </nav>
+        <div class="inner-container">
+            <main class="main-content">
+                <div>
+                    <form class="nav-button" action="../html/flexbox.html">
+                        <input type="submit" value="Flexbox Layout" />
+                    </form>
+                    <br>
+                    <form class="nav-button" action="../html/floats.html">
+                        <input type="submit" value="Floats Layout" />
+                    </form>
+                    <br>
+                    <form class="nav-button" action="../html/grid.html">
+                        <input type="submit" value="Grid Layout" />
+                    </form>
+                </div>
+            </main>
+        </div>
 
-    <main>
-        <!-- Place a long text here -->
-    </main>
-
-    <aside>
-        <!-- Place a small image here -->
-    </aside>
-
-    <footer>
-        <!-- Place a copyright notice here -->
-    </footer>
+        <footer class="footer-content">
+            <div>Copyright: This site was created as an example and does not contain any copyright. Feel free to reuse
+                anything you find here. Please and thank you.</div>
+        </footer>
+    </div>
 </body>
 
 </html>

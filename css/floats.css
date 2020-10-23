@@ -19,7 +19,6 @@
 .sidebar-content {
   float: left;
   width: 25vw;
-  padding: 0 2vh;
 }
 
 .inner-container {
@@ -49,7 +48,10 @@
 .nav-content > div {
   display: table-cell;
   vertical-align: middle;
-  max-height: 100vh;
+}
+
+.main-content > div {
+  max-height: 100px;
 }
 
 /*Reset floats so footer is unaffected.*/
