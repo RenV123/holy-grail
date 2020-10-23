@@ -67,7 +67,7 @@
   position: relative;
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 600px) {
   .inner-container {
     display: inline-grid;
     grid-template-columns: auto;
