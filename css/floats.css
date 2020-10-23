@@ -11,7 +11,8 @@
 
 .main-content {
   float: left;
-  width: 50vw;
+  width: 40vw;
+  overflow: auto;
   padding: 0 2vh;
 }
 
@@ -48,6 +49,7 @@
 .nav-content > div {
   display: table-cell;
   vertical-align: middle;
+  max-height: 100vh;
 }
 
 /*Reset floats so footer is unaffected.*/
@@ -70,21 +72,15 @@
   .inner-container > * {
     text-align: center;
     position: relative;
-    top: 10vh;
   }
   .nav-content {
     float: left;
-    height: 20vh;
-    width: 100vw;
   }
   .main-content {
     float: left;
-    height: 40vh;
-    width: 100vw;
   }
   .sidebar-content {
     float: left;
-    height: 20vh;
     width: 100vw;
   }
 }

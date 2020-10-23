@@ -16,8 +16,9 @@
   color: white;
 }
 
-.inner-container {
-  background: #e9e4ce;
+.inner-container,
+body {
+  background-color: #e9e4ce;
 }
 
 .main-content {
