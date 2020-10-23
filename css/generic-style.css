@@ -5,7 +5,7 @@
 }
 
 .header-content {
-  background: #1f6f8b;
+  background: #e0922f;
   color: #26292b;
   font-family: Houston, Times, serif;
   font-size: 7vmin;
@@ -17,11 +17,12 @@
 }
 
 .inner-container {
-  background: #e6d5b8;
+  background: #e9e4ce;
 }
 
 .main-content {
-  font-size: 1em;
+  font-size: 1.1em;
+  overflow: auto;
 }
 
 /*Font size based on viewport size: 

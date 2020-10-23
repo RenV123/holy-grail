@@ -33,7 +33,7 @@
 }
 
 .nav-content {
-  padding: 100% 0%;
+  padding: 30vh 0vh;
   grid-area: navigation;
   display: grid;
   align-items: center;
@@ -54,7 +54,7 @@
   align-items: center;
   justify-content: space-around;
   overflow: auto;
-  padding: 0% 10%;
+  padding: 5% 10%;
 }
 
 /*Center content*/
