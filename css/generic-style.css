@@ -1,10 +1,37 @@
 /*Generic Styling*/
+@font-face {
+  font-family: Houston;
+  src: url(../assets/Houston.otf);
+}
+
 .header-content {
-  background: #ff8b00;
+  background: #1f6f8b;
   color: #26292b;
+  font-family: Houston, Times, serif;
+  font-size: 7vmin;
 }
 
 .footer-content {
-  background: #2d0d10;
+  background: #99a8b2;
   color: white;
+}
+
+.inner-container {
+  background: #e6d5b8;
+}
+
+.main-content {
+  font-size: 1em;
+}
+
+/*Font size based on viewport size: 
+https://css-tricks.com/viewport-sized-typography/*/
+.footer-content {
+  font-size: 1.75vmin;
+}
+
+.sidebar-content img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
