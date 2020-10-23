@@ -39,7 +39,7 @@
 }
 
 @media only screen and (max-width: 479px) {
-  .inner-flexbox-container {
+  .inner-container {
     flex-direction: column;
   }
 
